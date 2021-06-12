@@ -12,7 +12,7 @@
 #include <fstream>
 #include <cstring>
 
-#include "lame.h"
+#include "lame/lame.h"
 
 namespace wavToMp3Encoding {
 

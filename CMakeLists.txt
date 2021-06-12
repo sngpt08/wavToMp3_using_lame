@@ -7,10 +7,10 @@ project(${PROJECT_NAME})
 find_package (Threads)
 
 include_directories(include
-                    lame-3.100/include
+                    third_party/lame/include
                     )
                     
-link_directories(lame-3.100/libmp3lame/.libs/
+link_directories(third_party/lame/lib/
                  )
 
 add_executable(${PROJECT_NAME} 
